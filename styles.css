@@ -14,6 +14,11 @@
   margin: 0 auto;
 }
 
+.bigger-container{
+  width: 1015px;
+  margin: 0 auto;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -135,6 +140,31 @@
   margin-left: 1px;
   margin-right: 1px;
 
+}
+
+.features{
+  margin: 0;
+  margin-top: 80px;
+  background-color: #ffca78;
+}
+.features__list{
+  margin: 0;
+  padding: 0;
+}
+
+.features__item{
+  margin-right: 1px;
+  float: left;
+  width: 305px;
+  height: 240px; 
+}
+
+.features__item:nth-child(2){
+  width: 400px;
+}
+
+.features__item:last-child{
+  margin: 0;
 }
 
 /*.new-collection h2{
