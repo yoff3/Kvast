@@ -201,6 +201,48 @@
   margin: 0;
 }
 
+.press-talks{
+  margin-top: 80px;
+}
+
+.press-talks p{
+  width: 690px;
+  height: 90px;
+  margin: 0;
+}
+
+.press-talks__quote{
+  margin: 0;
+  padding: 0;
+}
+
+.press-talks__author{
+  float: right;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 45px;
+  /*width: 330px;*/
+  
+}
+
+.to-read-next{
+  display: inline-block;
+  width: 164px;
+  height: 46px;
+  border: 2px solid;
+  margin-top: 35px;
+}
+
+/*.press-talks__author{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 15px;
+}*/
+
+
 /*.new-collection h2{
   margin: 0;
   margin-top: 90px;
