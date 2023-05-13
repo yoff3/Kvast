@@ -285,6 +285,26 @@
   padding: 15px;
 }
 
+
+.booking{
+  margin-top: 80px;
+}
+
+.booking .section__title{
+  margin-bottom: 75px;
+}
+
+.booking p{
+  line-height: 30px;
+  color: #404040;
+  margin-bottom: 70px;
+  margin-right: 140px;
+}
+
+.booking-form{
+  height: 705px;
+  margin-right: 170px;
+}
 /*.press-talks__author{
   position: absolute;
   bottom: 0;
