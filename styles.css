@@ -235,6 +235,56 @@
   margin-top: 35px;
 }
 
+.assortment{
+  margin-top: 90px
+}
+
+.price-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-list tr {
+  border: 1px solid  #d8d8d8;
+
+  /*line-height: 30px;*/
+}
+
+.price-list tr:first-child{
+  border: 0;
+
+}
+
+.new-assortment-item{
+  font-size: 8px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.assortment-item-heading__title{
+  font-size: 11px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.assortment-item__title{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.price-list th,
+.price-list td { 
+  padding: 15px;
+}
+
 /*.press-talks__author{
   position: absolute;
   bottom: 0;
