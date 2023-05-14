@@ -1,0 +1,425 @@
+ body{
+  min-width: 1035px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Arial", sans-serif;
+  color: #404040;
+  background-color: #ffffff;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.bigger-container{
+  width: 1015px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.header-page{
+  background: url("./img/wheat-back.jpg") no-repeat;
+  background-position: bottom ;
+  background-size: cover; 
+  padding-top: 60px;
+  height: 490px;
+  color: #c3c3c3;
+  background-color: #363636;
+  /*margin: 0;
+  padding: 0;
+  min-height: 550px;
+  padding-top: 60px;
+  color: #c3c3c3;
+  background-color: #363636;
+  background-image: url("./img/wheat-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom*/
+}
+
+.main-nav__logo{
+  float: left;
+  width: 140px;
+  height: 76px;
+  
+}
+
+.main-nav__logo img{
+  width: 140px;
+  height: 76px;
+}
+
+.main-nav{
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.main-nav_list{
+  margin: 10px 0 0 60px;
+  padding: 0;
+  width: 600px;
+  float: left;
+  list-style: none;
+  border-top: 1px solid rgba(255, 203, 120, 0.3);
+  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+}
+
+.main-nav__list-item{
+  padding-top: 21px;
+  padding-bottom: 20px;
+  padding-right: 54px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-nav__list-item:last-child{
+  padding-right: 0;
+}
+
+.main-nav__list-item a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav__list-item a:hover{
+  color: #ffcb78;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.main-nav__list-item a:active{
+  color: rgba(255, 203, 120, 0.3);
+}
+
+.promo {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 70px;
+  font-family: "Arial", serif;
+  text-align: center;
+  color: white;
+} 
+
+.new-collection{
+  margin: 0;
+  margin-top: 80px;
+}
+
+.section__title{
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 75px; 
+}
+/*
+.new-collection_list{
+  margin: 10px;
+  padding: 10px;
+}*/
+
+.new-collection__item{
+  float: left;
+  width: 398px;
+  height: 759px;
+  margin: 0;
+  padding: 0;
+}
+
+.new-collection__item:first-child{
+  margin-left: 1px;
+  margin-right: 1px;
+
+}
+
+.features{
+  margin: 0;
+  margin-top: 80px;
+  background-color: #ffca78;
+}
+.features__list{
+  margin: 0;
+  padding: 0;
+}
+
+.features__item{
+  margin-right: 1px;
+  float: left;
+  width: 305px;
+  height: 240px; 
+}
+
+.features__item:nth-child(2){
+  width: 400px;
+}
+
+.features__item:last-child{
+  margin: 0;
+}
+
+.kvast-history{
+  margin:0;
+  margin-top: 80px;
+}
+
+.kvast-history .section__title{
+  margin-bottom: 60px;
+}
+
+.origin{
+  margin: 0;
+  padding: 0;
+} 
+
+.reference-title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.origin dd{
+  height: 120px;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.origin dd:last-child{
+  margin: 0;
+}
+
+.press-talks{
+  margin-top: 80px;
+}
+
+.press-talks p{
+  width: 690px;
+  height: 90px;
+  margin: 0;
+}
+
+.press-talks__quote{
+  margin: 0;
+  padding: 0;
+}
+
+.press-talks__author{
+  float: right;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 45px;
+  /*width: 330px;*/
+  
+}
+
+.to-read-next{
+  display: inline-block;
+  width: 164px;
+  height: 46px;
+  border: 2px solid;
+  margin-top: 35px;
+}
+
+.assortment{
+  margin-top: 90px
+}
+
+.price-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-list tr {
+  border: 1px solid  #d8d8d8;
+
+  /*line-height: 30px;*/
+}
+
+.price-list tr:first-child{
+  border: 0;
+
+}
+
+.new-assortment-item{
+  font-size: 8px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.assortment-item-heading__title{
+  font-size: 11px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.assortment-item__title{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.price-list th,
+.price-list td { 
+  padding: 15px;
+}
+
+
+.booking{
+  background-color: #ffca78;
+  margin-top: 80px;
+}
+
+/*.booking .section__title{
+  padding-top: 75px;
+}*/
+
+.booking p{
+  line-height: 30px;
+  color: #404040;
+  margin-bottom: 70px;
+  margin-right: 140px;
+}
+
+.booking-form{
+  height: 705px;
+  margin-right: 170px;
+}
+
+.page-footer{
+  padding-top: 60px;
+  background-color: #000000;
+}
+
+.footer-nav{
+  margin: 0 auto;
+}
+
+.footer-logo__link{
+  margin-left: 37px;
+  float: left;
+  width: 140px;
+  height: 76px;
+  
+}
+
+.footer-logo__link img{
+  width: 140px;
+  height: 76px;
+}
+
+/*.footer-logo__link{
+  min-width: 140px;
+  height: 76px;
+  margin-left: 35px;
+  float: left;
+}*/
+
+
+.about-kvast__menu{
+  margin: 7px 0 0 131px;
+  padding: 0;
+  width: 600px;
+  float: left;
+  list-style: none;
+  border-top: 1px solid rgba(255, 203, 120, 0.3);
+  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+}
+
+.about-kvast__item{
+  padding-top: 20px;
+  padding-bottom: 21px;
+  padding-right: 54px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-kvast__item:last-child{
+  padding-right: 0;
+}
+
+.about-kvast__item a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-kvast__item a:hover{
+  color: #ffcb78;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.about-kvast__item a:active{
+  color: rgba(255, 203, 120, 0.3);
+}
+
+.footer-bottom{
+  margin-top: 47px;
+}
+
+.footer-socials{
+  float: left;
+  height: 68px;
+  width: 216px;
+}
+
+.footer-bottom p{
+  margin: 12px 0 0 91px;
+  display: inline-block;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  width: 200px;
+  word-wrap: break-word;
+  color: #989898;
+}
+
+.footer-copyright{
+  float: right;
+  height: 68px;
+  width: 300px;
+  margin-right: 8px;
+}
+/*.press-talks__author{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 15px;
+}*/
+
+
+/*.new-collection h2{
+  margin: 0;
+  margin-top: 90px;
+  padding: 0;
+  font-size: 40px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.new-collection__item{
+  margin-top: 50px;
+}*/
