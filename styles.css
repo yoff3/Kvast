@@ -291,9 +291,9 @@
   margin-top: 80px;
 }
 
-.booking .section__title{
-  margin-bottom: 75px;
-}
+/*.booking .section__title{
+  padding-top: 75px;
+}*/
 
 .booking p{
   line-height: 30px;
@@ -305,6 +305,102 @@
 .booking-form{
   height: 705px;
   margin-right: 170px;
+}
+
+.page-footer{
+  padding-top: 60px;
+  background-color: #000000;
+}
+
+.footer-nav{
+  margin: 0 auto;
+}
+
+.footer-logo__link{
+  margin-left: 37px;
+  float: left;
+  width: 140px;
+  height: 76px;
+  
+}
+
+.footer-logo__link img{
+  width: 140px;
+  height: 76px;
+}
+
+/*.footer-logo__link{
+  min-width: 140px;
+  height: 76px;
+  margin-left: 35px;
+  float: left;
+}*/
+
+
+.about-kvast__menu{
+  margin: 7px 0 0 131px;
+  padding: 0;
+  width: 600px;
+  float: left;
+  list-style: none;
+  border-top: 1px solid rgba(255, 203, 120, 0.3);
+  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+}
+
+.about-kvast__item{
+  padding-top: 20px;
+  padding-bottom: 21px;
+  padding-right: 54px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-kvast__item:last-child{
+  padding-right: 0;
+}
+
+.about-kvast__item a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-kvast__item a:hover{
+  color: #ffcb78;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.about-kvast__item a:active{
+  color: rgba(255, 203, 120, 0.3);
+}
+
+.footer-bottom{
+  margin-top: 47px;
+}
+
+.footer-socials{
+  float: left;
+  height: 68px;
+  width: 216px;
+}
+
+.footer-bottom p{
+  margin: 12px 0 0 91px;
+  display: inline-block;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  width: 200px;
+  word-wrap: break-word;
+  color: #989898;
+}
+
+.footer-copyright{
+  float: right;
+  height: 68px;
+  width: 300px;
+  margin-right: 8px;
 }
 /*.press-talks__author{
   position: absolute;
