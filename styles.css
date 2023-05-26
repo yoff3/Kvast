@@ -113,6 +113,7 @@
 .new-collection{
   margin: 0;
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .section__title{
@@ -265,29 +266,84 @@
   padding: 0;
 }
 
+/*features*/
+
 .features{
   margin: 0;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   background-color: #ffca78;
 }
 .features__list{
   margin: 0;
-  padding: 0;
+  padding: 80px 0 85px 0;
+  list-style: none;
 }
 
 .features__item{
-  margin-right: 1px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-right: 100px;
+  border-right: 1px solid #e5b56b;
   float: left;
-  width: 305px;
-  height: 240px; 
+  text-align: left;
+  width: 205px;
+  height: 240px;
+}
+
+.feature-item::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  background-image: url("./img/icon-brew.png");
+  background-repeat: no-repeat;
+}
+
+.feature-self-made{
+  background: url("./img/icon-brew.png") left top no-repeat;
+}
+
+.feature-self-product{
+  background: url("./img/icon-matreshka.png") 97px top no-repeat;
+}
+
+.feature-quality{
+  background: url("./img/icon-thumbsup.png") left top no-repeat;
 }
 
 .features__item:nth-child(2){
-  width: 400px;
+  width: 205px;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .features__item:last-child{
   margin: 0;
+  padding-right: 0;
+  border-right: 0;
+  width: 211px;
+  float: right;
+}
+
+.features__item h2{
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  padding: 20px 0;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000000;
+}
+
+.features__item p{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  line-height: 30px;
+  color: 404040;
+
 }
 
 .kvast-history{
