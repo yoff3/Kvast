@@ -309,11 +309,11 @@
 }
 
 .feature-quality{
-  background: url("./img/icon-thumbsup.png") left top no-repeat;
+  background: url("./img/icon-thumbsup.png") 97px top no-repeat;  /*вместо лефт 97*/
 }
 
 .features__item:nth-child(2){
-  width: 205px;
+  width: 211px;
   padding-left: 95px;
   padding-right: 95px;
 }
@@ -321,6 +321,7 @@
 .features__item:last-child{
   margin: 0;
   padding-right: 0;
+  padding-left: 95px;
   border-right: 0;
   width: 211px;
   float: right;
@@ -346,36 +347,84 @@
 
 }
 
+/*kvast-history*/
+
 .kvast-history{
   margin:0;
   margin-top: 80px;
+  background-color: #ffffff;
 }
 
 .kvast-history .section__title{
   margin-bottom: 60px;
 }
 
-.origin{
+.history-reference{
   margin: 0;
   padding: 0;
 } 
+
+.history-reference dd img{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 200px;
+  height: 101px;
+  border-radius: 1px;
+}
 
 .reference-title{
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 30px;
+  text-transform: uppercase;
   color: #000000;
 }
 
-.origin dd{
-  height: 120px;
-  margin: 0;
-  margin-bottom: 60px;
+.reference-source{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 30px;
+  text-transform: none;
+  color: #444444;
+  float: right;
 }
 
-.origin dd:last-child{
+.reference-source a {
+  color: #834700;
+}
+
+.reference-source a:hover {
+  color: #6a3900;
+}
+
+.reference-source a:active {
+  color: #cab7a2;
+}
+
+.history-reference dd{
+  min-height: 120px;
+  margin: 0;
+  padding: 0;
+  padding-right: 310px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.history-reference dd p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #404040;
+}
+
+.history-reference dd:last-child{
   margin: 0;
 }
 
