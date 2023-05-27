@@ -364,7 +364,12 @@
 } 
 
 .history-reference dd img{
-  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 200px;
+  height: 101px;
+  border-radius: 1px;
 }
 
 .reference-title{
@@ -383,8 +388,9 @@
   font-weight: normal;
   font-style: italic;
   line-height: 30px;
-  text-transform: lowercase;
+  text-transform: none;
   color: #444444;
+  float: right;
 }
 
 .reference-source a {
@@ -399,11 +405,22 @@
   color: #cab7a2;
 }
 
-
 .history-reference dd{
-  height: 120px;
+  min-height: 120px;
   margin: 0;
+  padding: 0;
+  padding-right: 310px;
   margin-bottom: 60px;
+  position: relative;
+}
+
+.history-reference dd p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #404040;
 }
 
 .history-reference dd:last-child{
