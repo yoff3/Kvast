@@ -351,7 +351,7 @@
 
 .kvast-history{
   margin:0;
-  margin-top: 80px;
+  margin: 80px 0;
   background-color: #ffffff;
 }
 
@@ -428,38 +428,72 @@
   margin: 0;
 }
 
-.press-talks{
-  margin-top: 80px;
+/*reviews*/
+
+.reviews{
+  padding: 80px 0 90px 0;
+  background-color: rgb(237, 228, 215);
 }
 
-.press-talks p{
+.reviews__quote p{
   width: 690px;
-  height: 90px;
+  /*height: 90px;*/
   margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
 }
 
-.press-talks__quote{
+.reviews__quote{
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
-.press-talks__author{
+.quotes__sign{
+  position: absolute;
+  top: 0;
+  left: -105px;
+  width: 50px;
+  height: 50px;
+  background-image: url("./img/quotes.png");
+  background-repeat: no-repeat;
+}
+
+.reviews__author{
   float: right;
   font-size: 20px;
-  line-height: 30px;
-  text-transform: uppercase;
   font-weight: bold;
+  font-style: bold;
+  line-height: 30px;
+  text-transform: uppercase;  
   margin-top: 45px;
-  /*width: 330px;*/
-  
+  color: #000000;
 }
 
 .to-read-next{
   display: inline-block;
-  width: 164px;
-  height: 46px;
-  border: 2px solid;
+  width: 124px;
+  /*height: 46px;*/
+  border: 2px solid #a59f96;
   margin-top: 35px;
+  padding: 13px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a59f96;
+  background-color: rgb(237, 228, 215);
+}
+
+.to-read-next:hover{
+  color: #ffffff;
+  background-color: #a59f97;
+  border-color: #a59f97;
+}
+
+.to-read-next:active{
+  color: #b1ada6;
+  background-color: #8f8980;
+  border-color: #8f8980;
 }
 
 .assortment{
