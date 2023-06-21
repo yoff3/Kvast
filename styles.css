@@ -496,24 +496,70 @@
   border-color: #8f8980;
 }
 
+/*assortment*/
+
 .assortment{
-  margin-top: 90px
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .price-list {
   width: 100%;
   border-collapse: collapse;
+  line-height: 30px;
 }
 
 .price-list tr {
-  border: 1px solid  #d8d8d8;
-
-  /*line-height: 30px;*/
+  border: 1px solid white;
 }
 
-.price-list tr:first-child{
-  border: 0;
+.price-list tr:first-child {
+  border: none;
+}
 
+.price-list th {
+  font-weight: normal;
+  font-size: 11px;
+  padding: 0 0 30px 0;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.price-list td {
+  padding: 17px 0;
+}
+
+.price-list .price__name{
+  width: 400px;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.price-list .price__name td{
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price-list .price__percent{
+  width: 90px;
+  text-align: left;
+}
+
+.price-list .price__kkal{
+  width: 60px;
+
+}
+.price-list .price__size{
+  width: 170px;
+}
+
+.price-list .prcie__cost{
+  width: 72px;
+  text-align: right;
 }
 
 .new-assortment-item{
@@ -522,39 +568,11 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #000000;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px 5px;
+  margin-left: 20px;
+  border-radius: 2px;
 }
 
-.assortment-item-heading__title{
-  font-size: 11px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #999999;
-}
-
-.assortment-item__title{
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.price-list th,
-.price-list td { 
-  padding: 15px;
-}
-
-
-.booking{
-  background-color: #ffca78;
-  margin-top: 80px;
-}
-
-/*.booking .section__title{
-  padding-top: 75px;
-}*/
 
 .booking p{
   line-height: 30px;
@@ -684,3 +702,4 @@
 .new-collection__item{
   margin-top: 50px;
 }*/
+
