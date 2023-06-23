@@ -580,6 +580,12 @@
 }
 
 .booking-form-group{
+  margin-bottom: 25px;
+}
+
+.booking-form-group label{
+  display: inline-block;
+  padding-bottom: 15px; 
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -589,11 +595,11 @@
 .booking-form textarea {
   font: inherit;
   color: inherit;
-  background-color:#e5b56c;
-  border: none;
-  width: 630px;
-  line-height: 20px;
   padding: 14px 0;
+  width: 100%;
+  line-height: 20px;
+  border: none;
+  background-color:#e5b56c;
 }
 
 .booking-form input[type="text"]:hover,
@@ -608,6 +614,16 @@
 .booking-form textarea:focus {
   background-color:#ffffff;
   border-color: white;
+}
+
+.booking-form-left-side{
+  float: left;
+  width: 290px;
+}
+
+.booking-form-right-side{
+  float: right;
+  width: 290px;
 }
 
 /*.booking-form-label {
