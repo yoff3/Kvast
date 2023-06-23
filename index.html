@@ -196,44 +196,52 @@
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите
           настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
         <form class="booking-form">
-          <label for="user-name-field">
-            Представьтесь: 
-          </label>
-          <input type="text" name="user-name" id="user-name-field">
-          <br>
-          <label for="user-phone-number-field">
-            Номер телефона: 
-          </label>
-          <input type="text" name="user-phone-number" id="user-phone-number-field">
-          <br>
-          <label for="user-additional-phone-number-field">
-            Доп. номер: 
-          </label> 
-          <input type="text" name="user-additional-phone-number" id="user-additional-phone-number-field">
-          <br>
-          <label for="user-email-field">
-            Email: 
-          </label>
-          <input type="text" name="user-email" id="user-email-field">
-          <br>
-          <label for="oder-size-field">
-            Объём заказа: 
-          </label>
-          <br>
-          <select name="order-size">
-            <option value="от 5 до 10 баррелей в неделю">От 5 до 10 баррелей в неделю</option>
-          </select>
-          <br>
-          <label for="user-comment-field">
-            Доп. комментарий: 
-          </label>
-          <textarea id="user-comment-field" rows="2"></textarea>
-          <br>
-          <input type="checkbox" checked id="spam-agreement-field">
-          <label for="spam-agreement-field">
-            Я согласен получать квасную рассылку
-          </label> 
-          <br>
+          <div class="booking-form-group">
+            <label for="user-name-field">
+              Представьтесь: 
+            </label>
+            <input type="text" name="user-name" id="user-name-field">
+          </div>
+          <div class="clearfix">
+            <div class="booking-form-group booking-form-left-side">
+              <label for="user-phone-number-field">
+                Номер телефона: 
+              </label>
+              <input type="text" name="user-phone-number" id="user-phone-number-field">
+            </div>
+            <div class="booking-form-group booking-form-right-side">
+              <label for="user-additional-phone-number-field">
+                Доп. номер: 
+              </label>
+              <input type="text" name="user-additional-phone-number" id="user-additional-phone-number-field">
+            </div>
+          </div>
+          <div class="booking-form-group">
+            <label for="user-email-field">
+              Email: 
+            </label>
+            <input type="text" name="user-email" id="user-email-field">
+          </div>
+          <div class="booking-form-group">
+            <label for="oder-size-field">
+              Объём заказа: 
+            </label>
+            <select name="order-size">
+              <option value="от 5 до 10 баррелей в неделю">От 5 до 10 баррелей в неделю</option>
+            </select>
+          </div>
+          <div class="booking-form-group">
+            <label for="user-comment-field">
+              Доп. комментарий: 
+            </label>
+            <textarea id="user-comment-field" rows="2"></textarea>
+          </div>
+          <div class="checkbox-area">
+            <label for="spam-agreement-field">
+              <input type="checkbox" checked id="spam-agreement-field">
+              Я согласен получать квасную рассылку
+            </label>             
+          </div> 
           <input type="submit" value="Отправить заказ">
         </form>
       </div>
