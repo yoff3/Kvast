@@ -576,29 +576,53 @@
 /*BOOKING*/
 
 .booking{
-  margin-top: 90px;
+  padding-top: 80px;
+  padding-bottom: 110px;
+  background-color: #ffca78;
 }
 
 .booking-form-group{
   margin-bottom: 25px;
 }
 
+.booking-form{
+  width: 630px;
+}
+
 .booking-form-group label{
   display: inline-block;
-  padding-bottom: 15px; 
+  padding-bottom: 10px; 
   font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 20px;
   text-transform: uppercase;
+}
+
+.booking-form-left-side,
+.booking-form-right-side{
+  width: 290px;
+}
+
+.booking-form-left-side{
+  float: left;
+}
+
+.booking-form-right-side{
+  float: right;
 }
 
 .booking-form input[type="text"],
 .booking-form select,
 .booking-form textarea {
   font: inherit;
-  color: inherit;
-  padding: 14px 0;
+  font-weight: bold;
+  box-sizing: border-box;  
+  padding: 15px 0 15px 20px;
   width: 100%;
-  line-height: 20px;
+  height: 50px;
   border: none;
+  color: rgba(0, 0, 0, 0.3);
   background-color:#e5b56c;
 }
 
@@ -614,17 +638,21 @@
 .booking-form textarea:focus {
   background-color:#ffffff;
   border-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
 }
 
-.booking-form-left-side{
-  float: left;
-  width: 290px;
+.checkbox-area{
+  padding-right: 15px;
 }
 
-.booking-form-right-side{
-  float: right;
-  width: 290px;
+.booking-form-group textarea {
+  display: block;
+  min-height: 120px;
 }
+
 
 /*.booking-form-label {
   padding-top: 14px;
@@ -653,10 +681,6 @@
   margin-right: 140px;
 }
 
-.booking-form{
-  height: 705px;
-  margin-right: 170px;
-}
 
 .page-footer{
   padding-top: 60px;
