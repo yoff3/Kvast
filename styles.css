@@ -227,12 +227,14 @@
   margin-left: 4px;
 }
 
-.new-collection__item .buy-item:hover{
+.new-collection__item .buy-item:hover,
+.btn-send-order:hover{
   background-color: #693900;
   border-color: #693900;
 }
 
-.new-collection__item .buy-item:active{
+.new-collection__item .buy-item:active,
+.btn-send-order:active{
   background-color: #693900;
   border-color: #693900;
   color: #96754d;
@@ -573,6 +575,107 @@
   border-radius: 2px;
 }
 
+/*BOOKING*/
+
+.booking{
+  padding-top: 80px;
+  padding-bottom: 110px;
+  background-color: #ffca78;
+}
+
+.booking-form-group{
+  margin-bottom: 25px;
+}
+
+.booking-form{
+  width: 630px;
+}
+
+.booking-form-group label{
+  display: inline-block;
+  padding-bottom: 10px; 
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.booking-form-left-side,
+.booking-form-right-side{
+  width: 290px;
+}
+
+.booking-form-left-side{
+  float: left;
+}
+
+.booking-form-right-side{
+  float: right;
+}
+
+.booking-form input[type="text"],
+.booking-form select,
+.booking-form textarea {
+  font: inherit;
+  font-weight: bold;
+  box-sizing: border-box;  
+  padding: 15px 0 15px 20px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: rgba(0, 0, 0, 0.3);
+  background-color:#e5b56c;
+}
+
+.booking-form input[type="text"]:hover,
+.booking-form select:hover,
+.booking-form textarea:hover {
+  background-color:#d9ac66;
+  border: none;
+}
+
+.booking-form input[type="text"]:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  background-color:#ffffff;
+  border-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+}
+
+.checkbox-area{
+  padding-right: 15px;
+}
+
+.booking-form-group textarea {
+  display: block;
+  min-height: 120px;
+  margin-bottom: 35px;
+}
+
+
+/*.booking-form-label {
+  padding-top: 14px;
+}
+
+.booking-form-label__input {
+  padding: 14px 0;
+}
+
+
+.booking-form-label__contact{
+  width: 290px;
+  float: left;
+  padding-right: 50px;
+}
+
+.booking-form-input__contact input[type="text"]{
+  float: left;
+  width: 290px;
+}*/
 
 .booking p{
   line-height: 30px;
@@ -581,10 +684,14 @@
   margin-right: 140px;
 }
 
-.booking-form{
-  height: 705px;
-  margin-right: 170px;
+.btn-send-order{
+  padding: 10px 20px 10px 20px;
+  width: 200px;
+  background-color: #834600;
+  color: #ffffff;
 }
+
+
 
 .page-footer{
   padding-top: 60px;
