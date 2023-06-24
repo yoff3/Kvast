@@ -227,12 +227,14 @@
   margin-left: 4px;
 }
 
-.new-collection__item .buy-item:hover{
+.new-collection__item .buy-item:hover,
+.btn-send-order:hover{
   background-color: #693900;
   border-color: #693900;
 }
 
-.new-collection__item .buy-item:active{
+.new-collection__item .buy-item:active,
+.btn-send-order:active{
   background-color: #693900;
   border-color: #693900;
   color: #96754d;
@@ -651,6 +653,7 @@
 .booking-form-group textarea {
   display: block;
   min-height: 120px;
+  margin-bottom: 35px;
 }
 
 
@@ -680,6 +683,14 @@
   margin-bottom: 70px;
   margin-right: 140px;
 }
+
+.btn-send-order{
+  padding: 10px 20px 10px 20px;
+  width: 200px;
+  background-color: #834600;
+  color: #ffffff;
+}
+
 
 
 .page-footer{
