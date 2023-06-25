@@ -692,9 +692,11 @@
 }
 
 
+/*FOOTER*/
 
 .page-footer{
-  padding-top: 60px;
+  padding-top: 60px;  
+  padding-bottom: 80px;
   background-color: #000000;
 }
 
@@ -707,7 +709,6 @@
   float: left;
   width: 140px;
   height: 76px;
-  
 }
 
 .footer-logo__link img{
@@ -715,27 +716,19 @@
   height: 76px;
 }
 
-/*.footer-logo__link{
-  min-width: 140px;
-  height: 76px;
-  margin-left: 35px;
-  float: left;
-}*/
-
-
 .about-kvast__menu{
   margin: 7px 0 0 131px;
   padding: 0;
   width: 600px;
   float: left;
   list-style: none;
-  border-top: 1px solid rgba(255, 203, 120, 0.3);
-  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+  border-top: 1px solid rgba(51, 51, 51);
+  border-bottom: 1px solid rgba(51, 51, 51);
 }
 
 .about-kvast__item{
-  padding-top: 20px;
-  padding-bottom: 21px;
+  padding-top: 21px;
+  padding-bottom: 20px;
   padding-right: 54px;
   float: left;
   text-transform: uppercase;
@@ -766,9 +759,59 @@
 }
 
 .footer-socials{
+  font-size: 0;
   float: left;
   height: 68px;
   width: 216px;
+}
+
+.socials-btn{
+  display: inline-block;
+  width: 69px;
+  height: 66px;
+  vertical-align: middle;
+  background-color: #1b1b1b;
+  border: 1px solid #322d24;
+  border-collapse: collapse;
+}
+
+.socials-instargram{
+  background-image: url("./img/insta-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.socials-facebook{
+  background-image: url("./img/fb-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.socials-vk{
+  background-image: url("./img/vk-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.socials-btn:hover{
+  border-color: #615138;
+}
+
+.socials-btn:active{
+  border-color: #272119;
+  background-color: #0e0e0e;
+}
+
+.socials-instargram:active{
+  background-image: url("./img/insta-icon-active.png");
+}
+
+.socials-facebook:active{
+  background-image: url("./img/fb-icon-active.png");
+}
+
+.socials-vk:active{
+  background-image: url("./img/vk-icon-active.png");
 }
 
 .footer-bottom p{
@@ -788,6 +831,27 @@
   width: 300px;
   margin-right: 8px;
 }
+
+.footer-copyright span img{
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.footer-copyright b,
+.footer-copyright a{
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+}
+
+.footer-copyright b{
+  margin-left: 30px;
+}
+
+.footer-copyright a{
+  text-decoration: none;
+}
+
 /*.press-talks__author{
   position: absolute;
   bottom: 0;
