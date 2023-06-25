@@ -695,7 +695,8 @@
 /*FOOTER*/
 
 .page-footer{
-  padding-top: 60px;
+  padding-top: 60px;  
+  padding-bottom: 80px;
   background-color: #000000;
 }
 
@@ -708,21 +709,12 @@
   float: left;
   width: 140px;
   height: 76px;
-  
 }
 
 .footer-logo__link img{
   width: 140px;
   height: 76px;
 }
-
-/*.footer-logo__link{
-  min-width: 140px;
-  height: 76px;
-  margin-left: 35px;
-  float: left;
-}*/
-
 
 .about-kvast__menu{
   margin: 7px 0 0 131px;
@@ -764,7 +756,6 @@
 
 .footer-bottom{
   margin-top: 47px;
-  padding-bottom: 80px;
 }
 
 .footer-socials{
@@ -842,8 +833,23 @@
 }
 
 .footer-copyright span img{
-  margin-top: 18px;
+  margin-top: 16px;
   margin-left: 21px;
+}
+
+.footer-copyright b,
+.footer-copyright a{
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+}
+
+.footer-copyright b{
+  margin-left: 30px;
+}
+
+.footer-copyright a{
+  text-decoration: none;
 }
 
 /*.press-talks__author{
