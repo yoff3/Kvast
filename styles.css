@@ -692,6 +692,7 @@
 }
 
 
+/*FOOTER*/
 
 .page-footer{
   padding-top: 60px;
@@ -729,13 +730,13 @@
   width: 600px;
   float: left;
   list-style: none;
-  border-top: 1px solid rgba(255, 203, 120, 0.3);
-  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+  border-top: 1px solid rgba(51, 51, 51, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
 }
 
 .about-kvast__item{
-  padding-top: 20px;
-  padding-bottom: 21px;
+  padding-top: 19px;
+  padding-bottom: 22px;
   padding-right: 54px;
   float: left;
   text-transform: uppercase;
