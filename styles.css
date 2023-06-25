@@ -476,7 +476,6 @@
 .to-read-next{
   display: inline-block;
   width: 124px;
-  /*height: 46px;*/
   border: 2px solid #a59f96;
   margin-top: 35px;
   padding: 13px 20px;
@@ -557,6 +556,7 @@
 }
 .price-list .price__size{
   width: 170px;
+  text-transform: uppercase;
 }
 
 .price-list .prcie__cost{
@@ -656,27 +656,6 @@
   margin-bottom: 35px;
 }
 
-
-/*.booking-form-label {
-  padding-top: 14px;
-}
-
-.booking-form-label__input {
-  padding: 14px 0;
-}
-
-
-.booking-form-label__contact{
-  width: 290px;
-  float: left;
-  padding-right: 50px;
-}
-
-.booking-form-input__contact input[type="text"]{
-  float: left;
-  width: 290px;
-}*/
-
 .booking p{
   line-height: 30px;
   color: #404040;
@@ -691,10 +670,11 @@
   color: #ffffff;
 }
 
-
+/*FOOTER*/
 
 .page-footer{
   padding-top: 60px;
+  padding-bottom: 80px;
   background-color: #000000;
 }
 
@@ -715,27 +695,19 @@
   height: 76px;
 }
 
-/*.footer-logo__link{
-  min-width: 140px;
-  height: 76px;
-  margin-left: 35px;
-  float: left;
-}*/
-
-
 .about-kvast__menu{
   margin: 7px 0 0 131px;
   padding: 0;
   width: 600px;
   float: left;
   list-style: none;
-  border-top: 1px solid rgba(255, 203, 120, 0.3);
-  border-bottom: 1px solid rgba(255, 203, 120, 0.3);
+  border-top: 1px solid rgba(51, 51, 51);
+  border-bottom: 1px solid rgba(51, 51, 51);
 }
 
 .about-kvast__item{
-  padding-top: 20px;
-  padding-bottom: 21px;
+  padding-top: 21px;
+  padding-bottom: 20px;
   padding-right: 54px;
   float: left;
   text-transform: uppercase;
@@ -763,7 +735,6 @@
 
 .footer-bottom{
   margin-top: 47px;
-  padding-bottom: 80px;
 }
 
 .footer-socials{
@@ -841,29 +812,17 @@
 }
 
 .footer-copyright span img{
-  margin-top: 18px;
+  margin-top: 16px;
   margin-left: 21px;
 }
 
-/*.press-talks__author{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 15px;
-}*/
-
-
-/*.new-collection h2{
-  margin: 0;
-  margin-top: 90px;
-  padding: 0;
-  font-size: 40px;
-  line-height: 61px;
-  text-transform: uppercase;
-  color: #000000;
+.footer-copyright b,
+.footer-copyright a{
+  font-size: 14px;
+  color: #989898;
+  text-decoration: none;
 }
 
-.new-collection__item{
-  margin-top: 50px;
-}*/
-
+.footer-copyright b{
+  margin-left: 30px;
+}
